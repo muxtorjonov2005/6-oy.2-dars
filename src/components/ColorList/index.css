@@ -1,0 +1,61 @@
+.color-list {
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    gap: 35px;
+}
+
+.color-box {
+    display: flex;
+    gap: 10px;
+}
+
+.color-box span {
+    width: 50px;
+    height: 50px;
+}
+
+.red p {
+    font-size: 20px;
+    color: red;
+}
+
+.red span {
+    background-color: red;
+}
+
+.green p {
+    font-size: 20px;
+    color: green;
+}
+
+.green span {
+    background-color: green;
+}
+
+.blue p {
+    font-size: 20px;
+    color: blue;
+}
+
+.blue span {
+    background-color: blue;
+}
+
+.yellow p {
+    font-size: 20px;
+    color: yellow;
+}
+
+.yellow span {
+    background-color: yellow;
+}
+
+.maroon p {
+    font-size: 20px;
+    color: maroon;
+}
+
+.maroon span {
+    background-color: maroon;
+}

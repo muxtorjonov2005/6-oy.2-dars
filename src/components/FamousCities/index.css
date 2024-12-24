@@ -1,0 +1,14 @@
+.city {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.city li {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.city span {
+    font-weight: 400;
+    font-size: 16px;
+}

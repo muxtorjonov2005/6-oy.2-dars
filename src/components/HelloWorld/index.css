@@ -1,0 +1,8 @@
+.world p {
+    font-size: 22px;
+    color: blue;
+    margin-bottom: 5px;
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}

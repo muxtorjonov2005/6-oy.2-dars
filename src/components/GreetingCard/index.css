@@ -1,0 +1,46 @@
+.greeting-card {
+    width: 250px;
+    margin: 100px auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.greeting-card h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+    animation: effect 2s infinite;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff4500, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+}
+
+@keyframes effect {
+    0% {
+        text-shadow: 0 0 5px #ea1010, 0 0 10px #94de1d, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+    }
+    50% {
+        text-shadow: 0 0 10px #b06f57, 0 0 15px transparent, 0 0 25px #ff8c00, 0 0 35px #ffd700;
+    }
+    100% {
+        text-shadow: 0 0 5px #ff0000, 0 0 10px transparent, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+    }
+}
+
+.greeting-card p {
+    text-align: center;
+    font-size: 50px;
+    animation: peffect 2s infinite;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff4500, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+}
+
+@keyframes peffect {
+    0% {
+        text-shadow: 0 0 5px #ea1010, 0 0 10px #94de1d, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+    }
+    50% {
+        text-shadow: 0 0 10px #b06f57, 0 0 15px transparent, 0 0 25px #ff8c00, 0 0 35px #ffd700;
+    }
+    100% {
+        text-shadow: 0 0 5px #ff0000, 0 0 10px transparent, 0 0 20px #ff6347, 0 0 30px #ff8c00;
+    }
+}

@@ -1,0 +1,36 @@
+.seasons {
+    width: 300px;
+    margin: auto;
+}
+
+.season {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.season h2 {
+    font-size: 22px;
+}
+
+.season span {
+    width: 50px;
+    height: 50px;
+}
+
+.spring span {
+    background-color: green;
+}
+
+.summer span {
+    background-color: yellow;
+}
+
+.autumn span {
+    background-color: orange;
+}
+
+.winter span {
+    background-color: lightblue;
+}

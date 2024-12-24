@@ -1,0 +1,18 @@
+.gallery {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.animals {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.animals p {
+    color: #000;
+    font-size: 16px;
+}

@@ -11,7 +11,16 @@ import SeasonColor from './components/SeasonColor'
 import SimpleMenu from './components/SimpleMenu'
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <div className="componen hello"><HelloWorld /></div>
+      <div className="componen animal"><AnimalGallery /></div>
+      <div className="componen color"><ColorList /></div>
+      <div className="componen weekdays"><WeekDays /></div>
+      <div className="componen greeting"><GreetingCard /></div>
+      <div className="componen famous-cities"><FamousCities /></div>
+      <div className="componen season-color"><SeasonColor /></div>
+      <div className="componen menu"><SimpleMenu /></div>
+    </div>
   )
 }
 
